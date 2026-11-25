@@ -1,0 +1,21 @@
+{
+    "scripts":  {
+                    "build":  "tsc -p tsconfig.build.json"
+                },
+    "type":  "module",
+    "types":  "./dist/index.d.ts",
+    "version":  "0.1.0",
+    "name":  "@mf/harness-settings",
+    "private":  true,
+    "exports":  {
+                    ".":  {
+                              "types":  "./dist/index.d.ts",
+                              "default":  "./dist/index.js"
+                          }
+                },
+    "main":  "./dist/index.js",
+    "dependencies":  {
+                         "zod":  "^4.6.7",
+                         "@mf/core":  "workspace:*"
+                     }
+}

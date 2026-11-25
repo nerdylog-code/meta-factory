@@ -1,0 +1,26 @@
+{
+    "name":  "@mf/app",
+    "version":  "0.1.0",
+    "private":  true,
+    "type":  "module",
+    "scripts":  {
+                    "build":  "tsc -p tsconfig.build.json",
+                    "dev":  "node --import tsx/esm src/main.ts",
+                    "start":  "node dist/main.js"
+                },
+    "dependencies":  {
+                         "@hono/node-server":  "^1.13.7",
+                         "@mf/core":  "workspace:*",
+                         "@mf/harness-coding":  "workspace:*",
+                         "@mf/harness-notes":  "workspace:*",
+                         "@mf/harness-pages":  "workspace:*",
+                         "@mf/harness-settings":  "workspace:*",
+                         "hono":  "^4.13.21",
+                         "tsx":  "^4.23.15",
+                         "@mf/harness-teams":  "workspace:*",
+                         "@mf/harness-mailbox":  "workspace:*",
+                         "@mf/harness-metafactory":  "workspace:*",
+                         "@mf/harness-proactive":  "workspace:*",
+                         "@mf/harness-subagents":  "workspace:*"
+                     }
+}

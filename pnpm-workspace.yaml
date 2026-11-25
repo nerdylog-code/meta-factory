@@ -1,0 +1,9 @@
+packages:
+  - 'packages/*'
+  - 'apps/*'
+  - 'factories/*'
+  - 'channels/*'
+
+onlyBuiltDependencies:
+  - better-sqlite3
+  - esbuild

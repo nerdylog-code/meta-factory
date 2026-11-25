@@ -1,0 +1,22 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+# Local databases may contain prompts, tool outputs, or user data.
+*.db
+*.db-*
+/factories/**/workspace/
+/coverage/
+/apps/web/dist/
+/.vitest-reports/
+/.test-build-crash/
+
+# Local screenshot evidence and transient UI probe output.
+/collapse-before.png
+/collapse-after.png
+/probe.json
+
+# Local operational context; may describe private project setup.
+/CONTEXT_MANIFEST.md

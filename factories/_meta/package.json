@@ -1,0 +1,10 @@
+{
+  "name": "@mf/factory-meta",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MetaFactory: manages the lifecycle of the other factories. Configuration only.",
+  "dependencies": {
+    "@mf/core": "workspace:*"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@mf/factory-sandbox",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Reference factory: configuration only, no engine code.",
+  "dependencies": {
+    "@mf/core": "workspace:*"
+  }
+}
